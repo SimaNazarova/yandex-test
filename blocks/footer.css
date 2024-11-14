@@ -4,3 +4,9 @@
   font-size: 16px;
   opacity: 0.6;
 }
+
+@media all and (max-width: 915px) {
+  .footer {
+    padding: 34px 20px 66px 20px;
+  }
+}
