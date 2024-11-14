@@ -1,0 +1,38 @@
+.page {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.title-font {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.subtitle-font {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@keyframes move_pic {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.rotation {
+  animation-name: move;
+  animation: move_pic 20s infinite linear;
+}

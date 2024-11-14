@@ -1,0 +1,25 @@
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #f54932;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.marquee__text {
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+  font-size: 22px;
+}
+
+@media all and (max-width: 912px) {
+  .marquee {
+    height: 38px;
+  }
+
+  .marquee__text {
+    font-size: 16px;
+  }
+}
