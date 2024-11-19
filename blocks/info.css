@@ -115,6 +115,7 @@
   }
   .info__top-container {
     display: block;
+    padding-left: 13px;
   }
 
   .info__container {
@@ -216,6 +217,13 @@
     font-size: 18px;
     max-width: 250px;
     margin-left: 5px;
+  }
+  .info__top-container {
+    padding-left: 0;
+  }
+
+  .info__info-table {
+    padding-left: 0;
   }
 
   .info__table {
