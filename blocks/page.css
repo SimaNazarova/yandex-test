@@ -8,6 +8,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .title-font {
@@ -23,16 +24,8 @@
   font-style: normal;
 }
 
-@keyframes move_pic {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
-}
-
-.rotation {
-  animation-name: move;
-  animation: move_pic 20s infinite linear;
+.line-through {
+  text-decoration: line-through;
+  text-decoration-color: #f54932;
+  text-decoration-thickness: 2px;
 }
